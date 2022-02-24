@@ -1,0 +1,19 @@
+﻿<Window x:Class="curzi.lorenzo._5H.EsercitazioneGestioneAPI.ThronesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:curzi.lorenzo._5H.EsercitazioneGestioneAPI"
+        mc:Ignorable="d"
+        Title="ThronesWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="53" Margin="116,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="548" IsEnabled="False" TextAlignment="Center" FontSize="20"><Run Language="it-it" Text="What character of Game Of Thrones are you?"/></TextBlock>
+        <TextBox x:Name="characterNumber" HorizontalAlignment="Left" Height="56" Margin="63,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="337" FontSize="14" TextChanged="characterNumber_TextChanged_1"/>
+        <Button x:Name="CharacterButton" Content="See what character you are!" HorizontalAlignment="Left" Height="56" Margin="63,208,0,0" VerticalAlignment="Top" Width="206" Click="Button_Click" FontSize="14"/>
+        <TextBlock x:Name="CharacterTextBox" HorizontalAlignment="Left" Height="71" Margin="63,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="337" IsEnabled="False" FontSize="14"/>
+        <Image x:Name="CharacterImage" HorizontalAlignment="Left" Height="156" Margin="489,217,0,0" VerticalAlignment="Top" Width="206"/>
+        <Label Content="Choose a number from 0 to 52..." HorizontalAlignment="Left" Height="30" Margin="63,99,0,0" VerticalAlignment="Top" Width="337"/>
+        <Button x:Name="MainWindowButton" Content="Go back to the Main Page" HorizontalAlignment="Left" Height="56" Margin="489,120,0,0" VerticalAlignment="Top" Width="205" FontSize="14" Click="MainWindowButton_Click"/>
+
+    </Grid>
+</Window>

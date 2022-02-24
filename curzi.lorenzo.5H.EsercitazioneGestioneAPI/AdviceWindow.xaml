@@ -1,0 +1,16 @@
+﻿<Window x:Class="curzi.lorenzo._5H.EsercitazioneGestioneAPI.AdviceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:curzi.lorenzo._5H.EsercitazioneGestioneAPI"
+        mc:Ignorable="d"
+        Title="AdviceWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="72" Margin="185,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="393" IsEnabled="False" FontSize="20" TextAlignment="Center"><Run Language="it-it" Text="Let's see what life has to tell you..."/></TextBlock>
+        <Button x:Name="MainPageButton" Content="Go back to Main Page" HorizontalAlignment="Left" Height="72" Margin="88,133,0,0" VerticalAlignment="Top" Width="211" FontSize="14" Click="MainPageButton_Click"/>
+        <TextBlock x:Name="TextAdvice" HorizontalAlignment="Left" Height="84" Margin="112,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="557"><Run Language="it-it"/></TextBlock>
+        <Button x:Name="GetAdvice" Content="Get a life advice" HorizontalAlignment="Left" Height="72" Margin="525,133,0,0" VerticalAlignment="Top" Width="211" FontSize="14" Click="GetAdvice_Click"/>
+
+    </Grid>
+</Window>

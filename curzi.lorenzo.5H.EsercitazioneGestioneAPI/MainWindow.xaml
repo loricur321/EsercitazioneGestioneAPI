@@ -1,0 +1,15 @@
+﻿<Window x:Class="curzi.lorenzo._5H.EsercitazioneGestioneAPI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:curzi.lorenzo._5H.EsercitazioneGestioneAPI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.491,0.512">
+        <Button x:Name="ThronesButton" Content="See what character of Game of Thrones you are..." HorizontalAlignment="Left" Height="62" Margin="90,0,0,0" VerticalAlignment="Center" Width="279" Click="Button_Click_1"/>
+        <Button x:Name="AdviceButton" Content="Get a life advice..." HorizontalAlignment="Left" Height="62" Margin="449,0,0,0" VerticalAlignment="Center" Width="279" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="59" Margin="215,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" IsEnabled="False" TextAlignment="Center" FontSize="20"><Run Language="it-it" Text="What do you want to do today?"/></TextBlock>
+
+    </Grid>
+</Window>
